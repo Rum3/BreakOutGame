@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    border: 2px solid black;
+}
+#winMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: none;
+}
+.hidden {
+    display: none;
+}
+#livesDisplay {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0095DD;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#gameOverMessage {
+    display: none;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF0000;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+

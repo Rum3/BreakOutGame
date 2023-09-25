@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breakout Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="gameOverMessage" style="display: none;">
+        <h1>GAME OVER!</h1>
+        <p>Натиснете R за рестарт на играта.</p>
+    </div>
+    <div id="winMessage" class="hidden">WIN!</div>
+    <div id="livesDisplay">Животи: <span id="livesCount">5</span></div>
+    <canvas id="gameCanvas" width="480" height="320"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
